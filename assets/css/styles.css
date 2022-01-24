@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Dongle", sans-serif;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Dongle&family=Questrial&display=swap");
+
+body {
+  background: #010409;
+}
+
+.header {
+  width: 100%;
+  height: max-content;
+}
+
+.nav__main {
+  display: flex;
+  margin-left: 30px;
+}
+
+.container {
+  position: absolute;
+  width: 100%;
+  padding: 16px 50px;
+  background: #161b22;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav__item {
+  margin: 7px 0px 0px 20px;
+  justify-content: space-between;
+  width: 300px;
+  display: flex;
+}
+
+a,
+li {
+  font-size: 14px;
+  color: white;
+  list-style: none;
+  text-decoration: none;
+}
+
+.mr-1 {
+  position: absolute;
+  left: 325px;
+  top: 18px;
+}
+
+.octicon {
+  fill: currentColor;
+  color: #f0f6fc;
+  position: absolute;
+  left: 32px;
+  top: 14px;
+}
+
+.octicon-bell {
+  position: absolute;
+  left: 1232px;
+  top: 24px;
+}
+
+.octicon-plus {
+  position: absolute;
+  left: 1255px;
+  top: 24px;
+}
+
+.fas {
+  position: absolute;
+  left: 1272px;
+  top: 24px;
+  color: white;
+}
+
+.octicon:hover {
+  opacity: 80%;
+}
+
+input {
+  font-size: inherit;
+  color: #f0f6fc;
+  background-color: #161b22;
+  border-radius: 6px;
+  padding: 0px 12px;
+  width: 270px;
+  height: 28px;
+}
+
+img {
+  border-radius: 50%;
+  position: absolute;
+  left: 1292px;
+  top: 22px;
+  width: 20px;
+}
+
+.feature-preview-indicator {
+  position: absolute;
+  left: 1304px;
+  top: 15px;
+  z-index: 2;
+  width: 14px;
+  height: 14px;
+  color: #fff;
+  background-image: linear-gradient(#54a3ff, #006eed);
+  border: 2px solid #161b22;
+  border-radius: 50%;
+}
+
+.icon {
+  font-size: 13px;
+  position: absolute;
+  left: 1318px;
+  top: 27px;
+}
+
+.right__nav {
+  cursor: pointer;
+}
